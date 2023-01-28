@@ -44,7 +44,7 @@ export default function App() {
         );
       });
     } catch (error) {
-      setError(error);
+      // setError(error);
       setIsLoading(false);
     }
   }, [page, searchData]);
